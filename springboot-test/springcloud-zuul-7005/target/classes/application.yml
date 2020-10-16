@@ -1,0 +1,22 @@
+server:
+  port: 7005
+
+spring:
+  application:
+    name: zuul7005
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8847
+
+zuul:
+  prefix: /up
+  #ignored-services: "*"
+  routes:
+    userprovider:
+      path: /userprovider/**
+      #serviceId: service-provider-user
+      serviceId: server_hystrix_feign
+
+
+

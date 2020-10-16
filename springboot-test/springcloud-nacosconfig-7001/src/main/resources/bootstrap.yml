@@ -1,0 +1,41 @@
+spring:
+  application:
+    name: nacos-config
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+      config:
+        server-addr: 127.0.0.1:8849
+        file-extension: yaml
+        #namespace: f4ed1d31-df5c-44fc-b87d-5cbc061b0101        # by namespace
+        #group: PROD_GROUP                                      # by group
+        prefix: ${spring.application.name}                      # by dataID
+        #prefix: nacos-config-group                             # by group
+        #prefix: nacos-config-namespace                         # by namespace
+        shared-dataids: share-config1.yaml,share-config2.yaml
+        refreshable-dataids: share-config1.yaml,share-config2.yaml
+        #ext-config:
+          #- data-id: share-config3.yaml
+            #group: SHARE3_GROUP
+            #refresh: true
+          #- data-id: share-config4.yaml
+           # group: SHARE4_GROUP
+        ext-config:
+          - { dataId: share-config3.yaml,group: SHARE3_GROUP,refresh: true }
+          - { dataId: share-config4.yaml,group: SHARE4_GROUP,refresh: true }
+        #ext-config[0]:
+           #data-id: share-config3.yaml
+           #group: SHARE3_GROUP
+           #refresh: true
+        #ext-config[1]:
+           #data-id: share-config4.yaml
+           #group: SHARE4_GROUP
+
+
+
+    #profiles:
+    #active: dev
+
+
+

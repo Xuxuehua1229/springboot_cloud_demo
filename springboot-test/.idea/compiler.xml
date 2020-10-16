@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloud-nacosconfig-7001" />
+        <module name="user_server_provider" />
+        <module name="user_server_consumer" />
+        <module name="springcloud-zuul-7005" />
+        <module name="springboot-security-test" />
+        <module name="springcloud-feign-hystrix" />
+        <module name="springcloud-provider-2" />
+        <module name="springcloud-provider-1" />
+        <module name="springboot-utils" />
+        <module name="springboot-api" />
+        <module name="springcloud-consumer-feign-1" />
+        <module name="springcloud-feign" />
+        <module name="server_hystrix_feign" />
+        <module name="springcloud-feign-8002" />
+        <module name="springboot-security" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springboot-security" target="1.8" />
+      <module name="springcloud-provider-02" target="1.8" />
+      <module name="springcloud-provider-1 (1)" target="1.8" />
+      <module name="springcloud-provider-2" target="1.8" />
+      <module name="user_server_consumer" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="server_hystrix_feign" options="-parameters" />
+      <module name="springboot-api" options="-parameters" />
+      <module name="springboot-security" options="-parameters" />
+      <module name="springboot-security-test" options="-parameters" />
+      <module name="springboot-utils" options="-parameters" />
+      <module name="springcloud-consumer-feign-1" options="-parameters" />
+      <module name="springcloud-feign" options="-parameters" />
+      <module name="springcloud-feign-hystrix" options="-parameters" />
+      <module name="springcloud-nacosconfig-7001" options="-parameters" />
+      <module name="springcloud-provider-02" options="-parameters" />
+      <module name="springcloud-provider-1" options="-parameters" />
+      <module name="springcloud-provider-2" options="-parameters" />
+      <module name="springcloud-zuul-7005" options="-parameters" />
+      <module name="user_server_consumer" options="-parameters" />
+      <module name="user_server_provider" options="-parameters" />
+    </option>
+  </component>
+</project>

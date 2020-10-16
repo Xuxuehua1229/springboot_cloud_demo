@@ -1,0 +1,28 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+
+spring:
+  application:
+    name: consumer-01
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8849
+
+feign:
+  hystrix:
+    enabled: true
+
+hystrix:
+ command:
+   default:
+    execution:
+      isolation:
+        thread:
+          timeoutInMilliseconds: 5000
+
+#hystrix\u8D85\u65F6\u65F6\u95F4\u914D\u7F6E \uFF08\u5982\u679C\u4E0D\u914D\u7F6E\u7684\u8BDD\u9ED8\u8BA4\u662F1000\u6BEB\u79D2\u8D85\u65F6\uFF09
+
+#hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds=6000

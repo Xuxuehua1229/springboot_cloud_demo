@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/server_hystrix_feign/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-api-8001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-security-test/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-utils/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-consumer-feign-1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-feign-8002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-feign-8002/src/main/resources/application.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-feign-hystrix/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-nacosconfig-7001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-provider-1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-zuul-7005/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-zuul-7005/src/main/resources/application.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/user_server_provider/src/main/java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
